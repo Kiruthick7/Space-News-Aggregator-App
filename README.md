@@ -12,16 +12,16 @@ Users can add articles to their favorites.
 Shows a list of articles that users have marked as favorites.
 Favorites are stored locally using ObjectBox for offline access.
 
-# #Article Details Page:
+## Article Details Page:
 Provides a detailed view of the selected article with full content and large images.
 
-## Technical Highlights:
-API Integration: Fetches and displays articles from the Spaceflight News API, with error handling.
-State Management: Utilizes GetX for efficient state management, routing, and dependency injection.
-UI Design: Features a space-themed interface with dark backgrounds, futuristic fonts, and space-themed icons.
-Optional Features: Includes dark mode, search functionality, and subtle animations to enhance user experience.
+### Technical Highlights:
+# API Integration: Fetches and displays articles from the Spaceflight News API, with error handling.
+# State Management: Utilizes GetX for efficient state management, routing, and dependency injection.
+# UI Design: Features a space-themed interface with dark backgrounds, futuristic fonts, and space-themed icons.
+# Optional Features: Includes dark mode, search functionality, and subtle animations to enhance user experience.
 
-## How it looks:
+### How it looks:
 #### Light mode ⚪ :
 ![Preview](/assets/github/light/Screenshot_1724590230.png)
 ![Preview](/assets/github/light/Screenshot_1724590240.png)
