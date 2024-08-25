@@ -29,8 +29,7 @@ class _SearchPageState extends State<SearchPage> {
               decoration: InputDecoration(
                 hintText: 'Search articles...',
                 filled: true,
-                fillColor:
-                    Get.isDarkMode ? const Color(0xFF1B263B) : Colors.white,
+                fillColor: Get.isDarkMode ? Colors.black : Colors.white,
                 border: const OutlineInputBorder(
                   borderRadius: BorderRadius.all(Radius.circular(8.0)),
                 ),
@@ -38,6 +37,9 @@ class _SearchPageState extends State<SearchPage> {
                   Icons.search,
                   color: Get.isDarkMode ? Colors.white : Colors.black,
                 ),
+              ),
+              style: TextStyle(
+                color: Get.isDarkMode ? Colors.white : Colors.black,
               ),
               onChanged: (query) {
                 _articlesController.filterArticles(query);
@@ -48,7 +50,7 @@ class _SearchPageState extends State<SearchPage> {
       ),
       body: GestureDetector(
         onTap: () {
-          FocusScope.of(context).unfocus(); // Hide the keyboard
+          FocusScope.of(context).unfocus();
         },
         child: Container(
           margin: const EdgeInsets.fromLTRB(12, 10, 12, 0),
@@ -86,7 +88,7 @@ class _SearchPageState extends State<SearchPage> {
 
   @override
   void dispose() {
-    _searchController.dispose(); // Dispose the controller
+    _searchController.dispose();
     super.dispose();
   }
 }
