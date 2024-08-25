@@ -35,4 +35,4 @@ Optional Features: Includes dark mode, search functionality, and subtle animatio
 ![Preview](/assets/github/dark/Screenshot_1724591296.png)
 
 #### Video
-![Preview](/assets/github/Recording%202024-08-25%20182334.mp4)
+[![Watch the video]()](/assets/github/Recording%202024-08-25%20182334.mp4))
