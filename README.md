@@ -23,15 +23,31 @@ Provides a detailed view of the selected article with full content and large ima
 
 ### How it looks:
 #### Light mode ⚪ :
+
+## Home Screen
 ![Preview](/assets/github/light/Screenshot_1724590230.png)
+
+## Search Articles Screen
 ![Preview](/assets/github/light/Screenshot_1724590240.png)
+
+## Favorite Articles Screen
 ![Preview](/assets/github/light/Screenshot_1724590251.png)
+
+## Article Details Screen
 ![Preview](/assets/github/light/Screenshot_1724590254.png)
 
 #### Dark mode ⚫ :
+
+## Home Screen
 ![Preview](/assets/github/dark/Screenshot_1724590271.png)
+
+## Search Articles Screen
 ![Preview](/assets/github/dark/Screenshot_1724590281.png)
+
+## Favorite Articles Screen
 ![Preview](/assets/github/dark/Screenshot_1724590287.png)
+
+## Article Details Screen
 ![Preview](/assets/github/dark/Screenshot_1724591296.png)
 
 #### Video
