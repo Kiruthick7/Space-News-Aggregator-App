@@ -16,10 +16,10 @@ Favorites are stored locally using ObjectBox for offline access.
 Provides a detailed view of the selected article with full content and large images.
 
 #### Technical Highlights:
-### API Integration: Fetches and displays articles from the Spaceflight News API, with error handling.
-### State Management: Utilizes GetX for efficient state management, routing, and dependency injection.
-### UI Design: Features a space-themed interface with dark backgrounds, futuristic fonts, and space-themed icons.
-### Optional Features: Includes dark mode, search functionality, and subtle animations to enhance user experience.
+##### API Integration: Fetches and displays articles from the Spaceflight News API, with error handling.
+##### State Management: Utilizes GetX for efficient state management, routing, and dependency injection.
+##### UI Design: Features a space-themed interface with dark backgrounds, futuristic fonts, and space-themed icons.
+##### Optional Features: Includes dark mode, search functionality, and subtle animations to enhance user experience.
 
 ### How it looks:
 #### Light mode ⚪ :
